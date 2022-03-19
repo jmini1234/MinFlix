@@ -20,7 +20,7 @@ class Bottom extends StatelessWidget {
                     size: 18,
                   ),
                   child: Text(
-                    '검색',
+                    '홈',
                     style: TextStyle(fontSize: 9),
                   ),
                 ),

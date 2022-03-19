@@ -24,10 +24,26 @@ class _MyAppState extends State<MyApp> {
           body: TabBarView(
             physics: NeverScrollableScrollPhysics(),
             children: <Widget>[
-              Container(),
-              Container(),
-              Container(),
-              Container(),
+              Container(
+                child: Center(
+                  child: Text('home'),
+                ),
+              ),
+              Container(
+                child: Center(
+                  child: Text('search'),
+                ),
+              ),
+              Container(
+                child: Center(
+                  child: Text('save'),
+                ),
+              ),
+              Container(
+                child: Center(
+                  child: Text('more'),
+                ),
+              ),
             ],
           ),
           bottomNavigationBar: Bottom(),
