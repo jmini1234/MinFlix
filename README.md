@@ -16,5 +16,4 @@ For help getting started with Flutter, view our
 samples, guidance on mobile development, and a full API reference.
 
 ## Flutter Note
-
-- [Day 1] (
+- [Day 1. 내용 정리](wiki/Day1.md)
