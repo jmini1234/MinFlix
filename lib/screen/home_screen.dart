@@ -1,10 +1,21 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/model/model_movie.dart';
 
 class HomeScreen extends StatefulWidget{
   _HomeScreenState createState() => _HomeScreenState();
 }
 
 class _HomeScreenState extends State<HomeScreen>{
+  List<Movie> movies = [
+    Movie.fromMap(
+      {
+        'title' : '사랑의 불시착',
+        'keyword' : '사랑/로맨스/판타지',
+        'poster' : 'test_movie_1.png',
+        'like' : false
+      }
+    )
+  ];
   @override
   void initState(){
     super.initState();
@@ -15,13 +26,14 @@ class _HomeScreenState extends State<HomeScreen>{
     return TopBar();
   }
 }
-
+// homeScreen에서만 사용될 예정이므로 따로 빼지 않는다.
 class TopBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.fromLTRB(20, 7, 20, 7),
       child: Row(
+        // 간격
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget> [
         Image.asset(
