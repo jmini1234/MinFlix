@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/screen/home_screen.dart';
 import 'package:myapp/widget/botton_bar.dart';
 
 void main() => runApp(MyApp());
@@ -15,8 +16,7 @@ class _MyAppState extends State<MyApp> {
       title: "MinFlix",
       theme: ThemeData(
         brightness: Brightness.dark,
-        primaryColor: Colors.black,
-        accentColor: Colors.white,
+        primaryColor: Colors.black
       ),
       home: DefaultTabController(
         length: 4,
@@ -24,11 +24,7 @@ class _MyAppState extends State<MyApp> {
           body: TabBarView(
             physics: NeverScrollableScrollPhysics(),
             children: <Widget>[
-              Container(
-                child: Center(
-                  child: Text('home'),
-                ),
-              ),
+              HomeScreen(),
               Container(
                 child: Center(
                   child: Text('search'),
