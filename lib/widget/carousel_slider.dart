@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/model/model_movie.dart';
 import 'package:carousel_slider/carousel_slider.dart';
+import 'package:myapp/screen/detail_screen.dart';
 
 // 디테일 페이지를 띄우는 기능이 있기 때문에 Stateful
 class CarousleImage extends StatefulWidget {
@@ -92,7 +93,18 @@ class _CarousleImageState extends State<CarousleImage> {
                   padding: EdgeInsets.only(right: 10),
                   child: Column(
                     children: <Widget>[
-                      IconButton(onPressed: () {}, icon: Icon(Icons.info)),
+                      IconButton(
+                          onPressed: () {
+                            Navigator.of(context).push(MaterialPageRoute<Null>(
+                                fullscreenDialog: true,
+                                builder: (BuildContext context) {
+                                  return DeatailScreen(
+                                    // 인자를 넘김
+                                    movie: movies![_currentPage],
+                                  );
+                                }));
+                          },
+                          icon: Icon(Icons.info)),
                       Text(
                         '정보',
                         style: TextStyle(fontSize: 11),
@@ -100,8 +112,7 @@ class _CarousleImageState extends State<CarousleImage> {
                     ],
                   ),
                 )
-              ]
-            ),
+              ]),
         ),
         Container(
           child: Row(
