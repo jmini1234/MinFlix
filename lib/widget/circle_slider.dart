@@ -37,12 +37,12 @@ List<Widget> makeCircleImage(BuildContext context, List<Movie> movies) {
               builder: (BuildContext context) {
                 return DeatailScreen(
                   // 인자를 넘김
-                  movie: movies![i],
+                  movie: movies[i],
                 );
               }));
         },
         child: Container(
-            padding: EdgeInsets.only(right: 30),
+            padding: EdgeInsets.only(right: 8, left: 8),
             child: Align(
               alignment: Alignment.centerLeft,
               child: CircleAvatar(

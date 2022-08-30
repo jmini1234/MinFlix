@@ -38,7 +38,7 @@ List<Widget> makeBoxImage(BuildContext context, List<Movie> movies) {
               builder: (BuildContext context) {
                 return DeatailScreen(
                   // 인자를 넘김
-                  movie: movies![i],
+                  movie: movies[i],
                 );
               }));
         },
