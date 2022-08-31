@@ -19,7 +19,7 @@
         - 다양한 디바이스에서 UI가 제대로 보이는지 체크
         - 여러 시뮬레이터를 켜고 빌드할 필요 없음
             
-            [VS Code 도입 방법](https://www.notion.so/VS-Code-f30a1863b8494ba294ed0be09a1aa2ce)
+            [VS Code 도입 방법](FlutterDevicePreview.md)
             
     3. `Dev Tools`
         - 성능 체크와 디버깅을 위한 강력한 도구

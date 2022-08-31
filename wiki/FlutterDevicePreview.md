@@ -94,12 +94,11 @@
         - `IOS/Android/Window/MacOS` 의 다양한 모델 지원
         - Device Preview 토글 여부도 존재
     
-    ![simulator_screenshot_69C0D468-4015-4A8B-A89F-794F6C53699F.png](Apply%20Flutter%20Device%20Preview%20in%20VSCode%202e74ee224f4c4b788839ba3139dc895c/simulator_screenshot_69C0D468-4015-4A8B-A89F-794F6C53699F.png)
-    
-    ![simulator_screenshot_E1BFAE86-C534-4BD5-BC17-EDF10D311990.png](Apply%20Flutter%20Device%20Preview%20in%20VSCode%202e74ee224f4c4b788839ba3139dc895c/simulator_screenshot_E1BFAE86-C534-4BD5-BC17-EDF10D311990.png)
-    
-    ![simulator_screenshot_E41D4857-9FF9-46A5-88A6-638616FD0E92.png](Apply%20Flutter%20Device%20Preview%20in%20VSCode%202e74ee224f4c4b788839ba3139dc895c/simulator_screenshot_E41D4857-9FF9-46A5-88A6-638616FD0E92.png)
-    
+    <div>
+	<img src="https://user-images.githubusercontent.com/37237145/187468915-aee08133-75b0-413a-a349-a6825e71c160.png" width="300"></img>
+	<img src="https://user-images.githubusercontent.com/37237145/187468956-9ac74266-ea41-4c6f-8b86-6e7a48f7c298.png" width="300"></img>
+	<img src="https://user-images.githubusercontent.com/37237145/187469037-91fd5d9a-c10a-44da-8950-53246568319f.png" width="300"></img>
+</div>
     - 참고
         - device preview를 사용하면 반응형 디자인이 적용되므로 그 과정에서
             
@@ -110,7 +109,7 @@
 
 `A RenderFlex overflowed by 2.0 pixels on the bottom.` 
 
-![Untitled](Apply%20Flutter%20Device%20Preview%20in%20VSCode%202e74ee224f4c4b788839ba3139dc895c/Untitled.png)
+<img width="1440" alt="스크린샷 2022-08-30 오후 10 12 17" src="https://user-images.githubusercontent.com/37237145/187468589-ab241cb2-7eef-4822-9717-fbf8b7f265cf.png">
 
 **👩🏻‍💻 [RESOLVE]**
 
