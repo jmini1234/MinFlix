@@ -33,6 +33,8 @@ dependencies:
   flutter_linkify: ^5.0.2
   url_launcher :
   device_preview:
+  cloud_firestore:
+  firebase_core:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
